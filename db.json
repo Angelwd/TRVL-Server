@@ -1,33 +1,25 @@
 {
-  "projects": [
+  "trips": [
     {
-      "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "destination": "Miami",
+      "startDate": "2023-12-21",
+      "endDate": "2023-12-28",
+      "budget": "100",
+      "hotel": "Marriott",
+      "restaurants": "Tao",
+      "activities": "Miami Beach",
+      "id": 1
     },
     {
-      "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
+      "destination": "Cancun",
+      "startDate": "2023-12-21",
+      "endDate": "2023-12-28",
+      "budget": "200",
+      "hotel": "Marriott",
+      "restaurants": "Tao",
+      "activities": "Beach",
+      "id": 2
     }
   ],
-  "tasks": [
-    {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
-    },
-    {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
-    },
-    {
-      "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
-    }
-  ]
+  "tasks": []
 }
